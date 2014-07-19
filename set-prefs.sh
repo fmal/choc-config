@@ -4,7 +4,7 @@ PREF_DOMAIN="com.chocolatapp.Chocolat"
 
 echo "Setting up preferences..."
 
-defaults write $PREF_DOMAIN "CHActiveTheme" -string "Tomorrow Night"
+defaults write $PREF_DOMAIN "CHActiveTheme" -string "base16-eighties.dark"
 defaults write $PREF_DOMAIN "CHDefaultFont" -string "EcoCoding"
 defaults write $PREF_DOMAIN "CHDefaultFontSize" -float 16.0
 defaults write $PREF_DOMAIN "CHLineSpacing" -float 1.3
