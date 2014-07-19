@@ -1,0 +1,12 @@
+[submodule "Mixins/transmit.chocmixin"]
+	path = Mixins/transmit.chocmixin
+	url = git@github.com:fmal/transmit.chocmixin.git
+[submodule "Mixins/encode-entities.chocmixin.git"]
+	path = Mixins/encode-entities.chocmixin.git
+	url = https://github.com/peteschaffner/encode-entities.chocmixin.git
+[submodule "Truffles/apache.truffle"]
+	path = Truffles/apache.truffle
+	url = git://github.com/chocolat/apache.truffle.git
+[submodule "Truffles/scss.truffle"]
+	path = Truffles/scss.truffle
+	url = git://github.com/fmal/scss.truffle.git

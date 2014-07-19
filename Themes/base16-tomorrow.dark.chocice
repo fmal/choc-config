@@ -1,0 +1,179 @@
+(name [Base16 Tomorrow Dark])
+
+(author [Chris Kempson (http://chriskempson.com)])
+
+(!default
+    (background 1d1f21)
+    (color c5c8c6)
+    (caret c5c8c6)
+    (invisibles 969896)
+    (selection 373b41)
+    (line-highlight 96989655))
+
+(apply variable.parameter.function
+    Text
+    (color c5c8c6))
+
+(apply [comment, punctuation.definition.comment]
+    Comments
+    (color 969896))
+
+(apply [punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array]
+    Punctuation
+    (color c5c8c6))
+
+(apply none
+    Delimiters
+    (color c5c8c6))
+
+(apply keyword.operator
+    Operators
+    (color c5c8c6))
+
+(apply keyword
+    Keywords
+    (color b294bb))
+
+(apply variable
+    Variables
+    (color cc6666))
+
+(apply [entity.name.function, meta.require, support.function.any-method]
+    Functions
+    (color 81a2be))
+
+(apply [support.class, entity.name.class, entity.name.type.class]
+    Classes
+    (color f0c674))
+
+(apply meta.class
+    Classes
+    (color ffffff))
+
+(apply keyword.other.special-method
+    Methods
+    (color 81a2be))
+
+(apply storage
+    Storage
+    (color b294bb))
+
+(apply support.function
+    Support
+    (color 8abeb7))
+
+(apply [string, constant.other.symbol, entity.other.inherited-class]
+    [Strings, Inherited Class]
+    (color b5bd68))
+
+(apply constant.numeric
+    Integers
+    (color de935f))
+
+(apply none
+    Floats
+    (color de935f))
+
+(apply none
+    Boolean
+    (color de935f))
+
+(apply constant
+    Constants
+    (color de935f))
+
+(apply entity.name.tag
+    Tags
+    (color cc6666))
+
+(apply entity.other.attribute-name
+    Attributes
+    (color de935f))
+
+(apply [entity.other.attribute-name.id, punctuation.definition.entity]
+    [Attribute IDs]
+    (color 81a2be))
+
+(apply meta.selector
+    Selector
+    (color b294bb))
+
+(apply none
+    Values
+    (color de935f))
+
+(apply [markup.heading punctuation.definition.heading, entity.name.section]
+    Headings
+    (color 81a2be))
+
+(apply keyword.other.unit
+    Units
+    (color de935f))
+
+(apply [markup.bold, punctuation.definition.bold]
+    Bold
+    (color f0c674)
+    (bold))
+
+(apply [markup.italic, punctuation.definition.italic]
+    Italic
+    (color b294bb)
+    (italic))
+
+(apply markup.raw.inline
+    Code
+    (color b5bd68))
+
+(apply string.other.link
+    [Link Text]
+    (color cc6666))
+
+(apply meta.link
+    [Link Url]
+    (color de935f))
+
+(apply markup.list
+    Lists
+    (color cc6666))
+
+(apply markup.quote
+    Quotes
+    (color de935f))
+
+(apply meta.separator
+    Separator
+    (color c5c8c6)
+    (background 373b41))
+
+(apply markup.inserted
+    Inserted
+    (color b5bd68))
+
+(apply markup.deleted
+    Deleted
+    (color cc6666))
+
+(apply markup.changed
+    Changed
+    (color b294bb))
+
+(apply constant.other.color
+    Colors
+    (color 8abeb7))
+
+(apply string.regexp
+    [Regular Expressions]
+    (color 8abeb7))
+
+(apply constant.character.escape
+    [Escape Characters]
+    (color 8abeb7))
+
+(apply [punctuation.section.embedded, variable.interpolation]
+    Embedded
+    (color a3685a))
+
+(apply invalid.illegal
+    Invalid
+    (color 1d1f21)
+    (background cc6666))

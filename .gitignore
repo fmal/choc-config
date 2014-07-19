@@ -1,0 +1,11 @@
+*.chproj
+.DS_Store
+CodeCompletion
+ProjectIndexes
+diglett-watchd
+recent_projects.plist
+allrecents.txt
+projects.db
+metadata.db
+Projects.old
+SnipperEditor.storedata
