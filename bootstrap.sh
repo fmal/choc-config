@@ -5,8 +5,8 @@ CHOCOLAT_APP="/Applications/Chocolat.app"
 APP_SUPPORT="$HOME/Library/Application Support/Chocolat"
 
 if [ -e "$APP_SUPPORT" ]; then
-	read -p "$APP_SUPPORT exists, do you want to overwrite? (y/N) " -n 1 ANSWER
-	if [[ $ANSWER =~ ^[Yy]$ ]];then
+	read -r -p "$APP_SUPPORT exists, do you want to overwrite? [y/N]" RESPONSE
+	if [[ $RESPONSE =~ ^[Yy]$ ]]; then
 		rm -Rf "$APP_SUPPORT"
 	else
 		echo ""
