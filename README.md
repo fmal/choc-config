@@ -2,4 +2,4 @@ This is my custom version of [drudge’s tasty Chocolat config](https://github.c
 
 To install run:
 
-	$ curl https://raw.github.com/fmal/choc-config/master/bootstrap.sh | sh
+	$ curl https://raw.githubusercontent.com/fmal/choc-config/master/bootstrap.sh | sh
