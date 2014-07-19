@@ -5,7 +5,7 @@ CHOCOLAT_APP="/Applications/Chocolat.app"
 APP_SUPPORT="$HOME/Library/Application Support/Chocolat"
 
 if [ -e "$APP_SUPPORT" ]; then
-	read -r -p "$APP_SUPPORT exists, do you want to overwrite? [y/N]" RESPONSE
+	read -p "$APP_SUPPORT exists, do you want to overwrite? [y/N]" RESPONSE </dev/tty
 	if [[ $RESPONSE =~ ^[Yy]$ ]]; then
 		rm -Rf "$APP_SUPPORT"
 	else
